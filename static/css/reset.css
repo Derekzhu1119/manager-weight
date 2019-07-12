@@ -1,0 +1,265 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    font-size: 14px;
+}
+input::-ms-clear{display:none;}
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    background-image:  linear-gradient(140deg,#e60599 0%, #1e0a86 90%);
+    /*background-image:  linear-gradient(140deg, #3031b1 10%,#11153c 90%);*/
+    /*修正全屏时内容与系统保留区重叠的问题。*/
+    padding-top: constant(safe-area-inset-top);
+    padding-top: env(safe-area-inset-top);
+    padding-left: constant(safe-area-inset-left);
+    padding-left: env(safe-area-inset-left);
+    padding-right: constant(safe-area-inset-right);
+    padding-right: env(safe-area-inset-right);
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom);
+
+}
+body.nosafePadding{
+    padding: 0 !important;
+}
+body.men{
+    background-image:  linear-gradient(140deg,#3031b1 10%,#11153c 90%);
+}
+.van-key--gray{
+    background: #fff;
+}
+
+
+a{blr:expression(this.onFocus=this.blur());}
+a:focus{outline:none;outline-style:none; -moz-outline-style: none;}
+a.hidefocus{outline:none}
+img{boder:0px;}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* custom */
+a,a:link,a:visited,a:active {
+    color: #7e8c8d;
+    text-decoration: none;
+    -webkit-backface-visibility: hidden;
+}
+
+li {
+    list-style: none !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 5px;
+    background-color: rgba(125, 125, 125, 0.7);
+    -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    width: 5px;
+    background-color: rgba(125, 125, 125, 0.7);
+    -webkit-border-radius: 6px;
+}
+
+html, body {
+    width: 100%;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/*日历*/
+a{text-decoration:none;}a:link,a:visited{text-decoration: none;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight:normal;}
+address,cite,code,em,th,i{font-weight:normal; font-style:normal;}
+.clearfix{*zoom:1;}
+.clearfix:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden; content:"";}
+.clear{ clear: both;}
+/* float */
+.left{
+  float:left;
+}
+.right{
+  float:right;
+}
+.wp{
+    width: 1200px;
+    margin: 0 auto;
+}
+.van-popup{
+    overflow-y: visible;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+.inSearch i, .inSearch input[type=search]{
+    color: #fff !important;
+}
+.inSearch input[type=search]::placeholder{
+    color: #fff !important;
+}
+*{
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","PingFangSC-Regular","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
+
+}
+.isrotate{
+    transform: rotate(180deg);
+}
+.van-key--blue, .van-key--blue.van-key--active{
+    background: #d212aa;
+}
+.van-tab span{
+    color:#d212aa ;
+}
+.van-tabs__line{
+    background-color:#d212aa
+}
+.men .van-key--blue, .van-key--blue.van-key--active{
+    background: #313cc5;
+}
+.men .van-tab span{
+    color:#313cc5 ;
+}
+.men .van-tabs__line{
+    background-color:#313cc5
+}
+
+.selector .iconfont{
+    color:#035CC7;
+}
+
+.van-number-keyboard{
+    padding-bottom: 80px;
+}
+.tzModel{
+    margin-bottom: 280px;
+    padding:20px;
+}
+.tzModel .van-tabs__nav{
+}
+/* x*/
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3){
+    .personal_top{padding-top: 30px !important;}
+
+    .van-number-keyboard{
+        padding-bottom: 80px;
+    }
+    .tzModel{
+        margin-bottom: 280px;
+        padding:20px
+    }
+}
+/* x xs */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    .personal_top{padding-top: 30px !important;}
+
+    .van-number-keyboard{
+        padding-bottom: 80px;
+    }
+    .tzModel{
+        margin-bottom: 280px;
+        padding:20px
+    }
+}
+/* xr */
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+   .personal_top{padding-top: 30px !important;}
+    .van-number-keyboard{
+        padding-bottom: 80px;
+    }
+    .tzModel{
+        margin-bottom: 280px;
+        padding:20px
+    }
+
+}
+/* xs max */
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+    .personal_top{padding-top: 30px !important;}
+    .van-number-keyboard{
+        padding-bottom: 80px;
+    }
+    .tzModel{
+        margin-bottom: 280px;
+        padding:20px
+    }
+
+}
+#index .play_con .play_con_list2 .play_con_list2_inner .play_con_list2_inner_r ul li span.s1{
+    border-radius: 0;
+}
+#index .play_con .play_con_list2 .play_con_list2_inner .play_con_list2_inner_r ul li span.s1 i img{
+    border-radius: 50%;
+}
+#index .play_con .play_con_list1 ul li span.s1 i{
+    border-radius: 0;
+}
+#index .play_con .play_con_list1 ul li span.s1 i img{
+    border-radius: 50%;
+}
+@keyframes run {
+    0%{transform: translateX(0%)}
+    100%{transform: translateX(-100%)}
+}
+.bolang{
+    width: 100%;
+    overflow: hidden;
+}
+.bolang .bolang_inner {
+    width: 80000px;
+    animation: run 1600s linear infinite;
+}
+.bolang .bolang_inner img{
+    width: 800px;
+}
+.van-slider--disabled{
+    opacity: 1;
+}
+.van-field__label{
+    max-width: initial !important;
+}

@@ -1,0 +1,117 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body {font-size:14px; font-family: 'FingFang Regular'; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;}
+
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+@font-face {
+  font-family: 'FingFang Regular';
+  src: url('fonts/PingFang-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FingFang Bold';
+  src: url('fonts/PingFang-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/*@font-face {*/
+  /*font-family: 'PingFang Heavy';*/
+  /*src: url('fonts/PingFang-Heavy.ttf') format('truetype');*/
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
+/*}*/
+/*@font-face {*/
+  /*font-family: 'PingFang Light';*/
+  /*src: url('fonts/PingFang-Light.ttf') format('truetype');*/
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
+/*}*/
+/*@font-face {*/
+  /*font-family: 'PingFang ExtraLight';*/
+  /*src: url('fonts/PingFang-ExtraLight.ttf') format('truetype');*/
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
+/*}*/
+@font-face {
+  font-family: 'PingFang Medium';
+  src: url('fonts/PingFang-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*@font-face {*/
+  /*font-family: 'DIN-Black';*/
+  /*src: url('fonts/DIN-Black.otf') format('truetype');*/
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
+/*}*/
+/*@font-face {*/
+  /*font-family: 'DIN-BlackAlternate';*/
+  /*src: url('fonts/DIN-BlackAlternate.otf') format('truetype');*/
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
+/*}*/
+/*@font-face {*/
+  /*font-family: 'DIN-Bold';*/
+  /*src: url('fonts/DIN-Bold.otf') format('truetype');*/
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
+/*}*/
+/*@font-face {*/
+  /*font-family: 'DIN-BoldAlternate';*/
+  /*src: url('fonts/DIN-BoldAlternate.otf') format('truetype');*/
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
+/*}*/
+/*@font-face {*/
+  /*font-family: 'DIN-Euro';*/
+  /*src: url('fonts/DIN-Euro.otf') format('truetype');*/
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
+/*}*/
+/*@font-face {*/
+  /*font-family: 'DIN-Light';*/
+  /*src: url('fonts/DIN-Light.otf') format('truetype');*/
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
+/*}*/
+/*@font-face {*/
+  /*font-family: 'DIN-LightAlternate';*/
+  /*src: url('fonts/DIN-LightAlternate.otf') format('truetype');*/
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
+/*}*/
+@font-face {
+  font-family: 'DIN-Medium';
+  src: url('fonts/DIN-Medium.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/*@font-face {*/
+  /*font-family: 'DIN-MediumAlternate';*/
+  /*src: url('fonts/DIN-MediumAlternate.otf') format('truetype');*/
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
+/*}*/
+@font-face {
+  font-family: 'DIN-Regular';
+  src: url('fonts/DIN-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/*@font-face {*/
+  /*font-family: 'DIN-RegularAlternate';*/
+  /*src: url('fonts/DIN-RegularAlternate.otf') format('truetype');*/
+  /*font-weight: normal;*/
+  /*font-style: normal;*/
+/*}*/
